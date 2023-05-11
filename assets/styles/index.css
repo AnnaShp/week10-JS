@@ -1,0 +1,49 @@
+h1,
+button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+    color: rgb(58, 56, 56);
+}
+
+.cat,
+.container,
+.but {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 500px;
+    height: 360px;
+}
+
+.slider {
+    width: 500px;
+    height: 360px;
+    border: 2px solid black;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.slider-line {
+    height: 360px;
+    width: 2000px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+button {
+    height: 40px;
+    width: 160px;
+    border: transparent;
+    border-radius: 5%;
+    margin: 50px;
+    background-color: rgb(58, 56, 56);
+    color: white;
+    font-size: large;
+}
